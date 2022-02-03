@@ -1,0 +1,31 @@
+.badge{
+    position: absolute;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    font-size: 60%;
+    font-style: var(--font);
+    width: 25%;
+    height: 25%;
+    font-weight: 600;
+    min-width: 13px;
+    min-height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    top:0;
+    width: 30%;
+    height: 30%;
+    font-size: 75%;  
+}
+
+.icons-wrapper{ 
+        position: relative;
+        margin: 0px;
+        padding: 10px;
+}
