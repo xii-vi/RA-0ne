@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #0e6ba8;
+    --default-font-size: 75%;
+    --highlight-color: #0e6aa832;
+    --padding: 0.25rem;
+    --margin: 0.25rem;
+    --text-color: #ffffff;
+    --font-light: 300;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --button-border: 0.25rem;
+    --white: #ffffff;
+    --black: #000000;
+  }

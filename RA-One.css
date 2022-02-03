@@ -1,0 +1,57 @@
+@import "/stylesheet/main.css";
+
+:root{
+    ---background-color:rgba(255, 255, 255, 0.938);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(---background-color);
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.links{
+    margin-left: auto;
+}
+
+.hero-img{
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+.aside-container {
+    display: flex;
+  }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 660px) {
+    .aside-container{
+        display: none;
+        visibility: none;
+    }
+    .right-side{
+        display: none;
+        visibility: none; 
+    }
+}
+
+.flex:hover{
+        background-color: var(--highlight-color);
+        border-radius: .5rem;
+}
