@@ -2,7 +2,10 @@
   display: grid;
   grid-template-columns: 20% 60% 20%;
 }
-
+.grid-60-40-layout{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
   .flex{
     display: flex;
 }
