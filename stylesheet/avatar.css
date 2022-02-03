@@ -1,0 +1,47 @@
+.avatar-wrapper {
+    display: flex;
+    align-items: flex-end;
+  }
+.figure-wrapper{
+      position: relative;
+      margin: 0px;
+      padding: 0px;
+  }
+.avatar {
+    border-radius: 50%;
+    margin-left: 0.5rem;
+  }
+.avatar-xl {
+    height: 5rem;
+    width: 5rem;
+}
+.avatar-lg{
+    height: 4rem;
+    width: 4rem;
+}
+.avatar-std{
+    height: 3rem;
+    width: 3rem;
+}
+.avatar-sm{
+    height: 2rem;
+    width: 2rem;
+}
+
+.avatar-status{
+    padding: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.dnd{
+    background-color: var(--dnd-color);
+}
+.online{
+    background-color: var(--online-color);
+}
+.inactive{
+    background-color: var(--inactive-color);
+}

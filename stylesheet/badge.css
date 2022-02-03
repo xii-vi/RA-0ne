@@ -1,0 +1,30 @@
+.badge{
+    position: absolute;
+    background-color: var(--dnd-color);
+    color: var(--white);
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    font-size: 60%;
+    width: 25%;
+    height: 25%;
+    font-weight: 600;
+    min-width: 1.08rem;
+    min-height: 1.08rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    top:0;
+    width: 30%;
+    height: 30%;
+    font-size: 75%;  
+}
+
+.icons-wrapper{ 
+        position: relative;
+        margin: 0px;
+        padding: 10px;
+}
