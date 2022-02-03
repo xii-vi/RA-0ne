@@ -1,7 +1,7 @@
 :root {
     --primary-color: #0e6ba8;
     --default-font-size: 75%;
-    --highlight-color: #0e6aa832;
+    --text-highlight-color: #0e6aa832;
     --padding: 0.25rem;
     --margin: 0.25rem;
     --text-color: #ffffff;
@@ -12,4 +12,7 @@
     --button-border: 0.25rem;
     --white: #ffffff;
     --black: #000000;
+    --dnd-color:#ff0000;
+    --online-color:#32b643;
+    --inactive-color:#bcc3ce;
   }

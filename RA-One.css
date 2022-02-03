@@ -27,6 +27,7 @@ nav{
 }
 .aside-container {
     display: flex;
+    position: sticky;
   }
 
 main{
@@ -51,7 +52,15 @@ main{
     }
 }
 
-.flex:hover{
-        background-color: var(--highlight-color);
+.anchor-tag:hover{
+        background-color: var(--text-highlight-color);
         border-radius: .5rem;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+.right-side> a{
+    margin: 0.5rem;
 }

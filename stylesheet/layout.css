@@ -9,3 +9,11 @@
   .flex{
     display: flex;
 }
+
+
+@media screen and (max-width: 660px){
+.grid-20-60-20-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}

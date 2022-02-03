@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-end;
   }
-.wrapper{
+.figure-wrapper{
       position: relative;
       margin: 0px;
       padding: 0px;
@@ -29,8 +29,6 @@
 }
 
 .avatar-status{
-    border: 2px solid #fff;
-    background-color: #bcc3ce;
     padding: 0.5rem;
     border-radius: 50%;
     position: absolute;
@@ -39,8 +37,11 @@
 }
 
 .dnd{
-    background-color: #ff0000;
+    background-color: var(--dnd-color);
 }
 .online{
-    background-color: #32b643;
+    background-color: var(--online-color);
+}
+.inactive{
+    background-color: var(--inactive-color);
 }

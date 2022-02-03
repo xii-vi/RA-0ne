@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RA">
+    <meta name="description" content="Avatars of different types available to use in your project">
     <title>RA-One | Avatar</title>
     <link rel="stylesheet" href="/stylesheet/main.css">
-    <link rel="stylesheet" href="/RA-One.css">
 </head>
 
 <body>
@@ -22,15 +23,15 @@
             <aside class="aside-container p-4">
                 <div>
                     <p>Getting Started</p>
-                    <a class="p-4 flex" href="/pages/how-to-install.html">Usage</a>
+                    <a class="p-4 flex anchor-tag" href="/pages/how-to-install.html">Usage</a>
                     <p>Components</p>
-                    <a class="p-4 flex" href="#">Alert</a>
-                    <a class="p-4 flex" href="/pages/avatar.html">Avatar</a>
-                    <a class="p-4 flex" href="/pages/badge.html">Badge</a>
-                    <a class="p-4 flex" href="#">Button</a>
-                    <a class="p-4 flex" href="#">Card</a>
-                    <a class="p-4 flex" href="#">Image</a>
-                    <a class="p-4 flex" href="#">Input</a>
+                    <a class="p-4 flex anchor-tag" href="#">Alert</a>
+                    <a class="p-4 flex anchor-tag" href="/pages/avatar.html">Avatar</a>
+                    <a class="p-4 flex anchor-tag" href="/pages/badge.html">Badge</a>
+                    <a class="p-4 flex anchor-tag" href="#">Button</a>
+                    <a class="p-4 flex anchor-tag" href="#">Card</a>
+                    <a class="p-4 flex anchor-tag" href="#">Image</a>
+                    <a class="p-4 flex anchor-tag" href="#">Input</a>
                 </div>
             </aside>
 
@@ -47,9 +48,9 @@
                     <img class="avatar avatar-std" alt="avatar-demo" src="/assets/avatar/avatar-3.png">
                     <img class="avatar avatar-sm" alt="avatar-demo" src="/assets/avatar/avatar-4.png">
                 </div>
-                <p>The avatar component has 4 sizes, <span class="highlights p-1">avatar-xl</span>, <span
-                        class="highlights p-1">avatar-lg</span>,
-                    <span class="highlights p-1">avatar-std</span> and <span class="highlights p-1">avatar-sm</span>
+                <p>The avatar component has 4 sizes, <span class="text-highlight p-1">avatar-xl</span>, <span
+                        class="text-highlight p-1">avatar-lg</span>,
+                    <span class="text-highlight p-1">avatar-std</span> and <span class="text-highlight p-1">avatar-sm</span>
                 </p>
                 <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%2814%2C107%2C168%2C1%29&t=material&wt=sharp&l=css&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-wrapper%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%253C%252Fdiv%253E"
@@ -59,22 +60,22 @@
                 <h4>Avatars with status</h4>
                 <div class="avatar-wrapper">
 
-                    <figure class="wrapper">
+                    <figure class="figure-wrapper">
                         <img class="avatar avatar-xl" alt="avatar-demo" src="/assets/avatar/avatar-1.png">
                         <div class="avatar-status dnd"></div>
                     </figure>
-                    <figure class="wrapper">
+                    <figure class="figure-wrapper">
                         <img class="avatar avatar-lg" alt="avatar-demo" src="/assets/avatar/avatar-2.png">
                         <div class="avatar-status online"></div>
                     </figure>
-                    <figure class="wrapper">
+                    <figure class="figure-wrapper">
                         <img class="avatar avatar-std" alt="avatar-demo" src="/assets/avatar/avatar-3.png">
-                        <div class="avatar-status"></div>
+                        <div class="avatar-status inactive"></div>
                     </figure>
                 </div>
                 <p>Avatars support presence indicators. There are three indicators <span
-                        class="highlights p-1">online</span>, <span class="highlights p-1">offline</span> and <span
-                        class="highlights p-1">dnd</span>.
+                        class="text-highlight p-1">online</span>, <span class="text-highlight p-1">offline</span> and <span
+                        class="text-highlight p-1">dnd</span>.
                 </p>
                 <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%2814%2C107%2C168%2C1%29&t=material&wt=sharp&l=css&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522wrapper%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-std%2522%2520alt%253D%2522%2522%2520src%253D%2522%2522%253E%250A%253Cdiv%2520class%253D%2522avatar-status%2522%253E%253C%252Fdiv%253E%250A%253C%252Ffigure%253E"
@@ -89,6 +90,8 @@
             <div class="right-side">
                 <h4>On this Page</h4>
                 <a href="#">Avatar</a>
+                <a href="#">Standard Avatar</a>
+                <a href="#">Avatars with status</a>
             </div>
         </div>
     </div>

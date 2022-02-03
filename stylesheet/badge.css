@@ -1,17 +1,16 @@
 .badge{
     position: absolute;
-    background-color: #f44336;
-    color: #fff;
+    background-color: var(--dnd-color);
+    color: var(--white);
     border-radius: 50%;
     bottom: 0;
     right: 0;
     font-size: 60%;
-    font-style: var(--font);
     width: 25%;
     height: 25%;
     font-weight: 600;
-    min-width: 13px;
-    min-height: 13px;
+    min-width: 1.08rem;
+    min-height: 1.08rem;
     display: flex;
     justify-content: center;
     align-items: center;
