@@ -22,14 +22,14 @@
   justify-content: center;
   align-items: center;
 }
-.arrow{
+.arrow-icon{
   background: var(--primary-color);
 }
-.plus{
+.plus-icon{
   background-color: var(--black);
   color: var(--text-color);
 }
-.minus{
+.minus-icon{
   color: var(--black);
   background-color: var(--white);
 }
