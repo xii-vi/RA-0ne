@@ -1,13 +1,11 @@
-@import "/stylesheet/main.css";
-
 :root{
-    ---background-color:rgba(255, 255, 255, 0.938);
+    ---background-color: linear-gradient(to top,#0e6aa86c, #e8f1f27e);
 }
 *{
     box-sizing: border-box;
 }
 body{
-    background-color: var(---background-color);
+    background-image: var(---background-color);
 }
 
 
@@ -36,31 +34,25 @@ main{
     justify-content: center;
     flex-direction: column;
 }
-.content{
+.right-side-container{
     display: flex;
     flex-direction: column;
+}
+.right-side-container> a{
+    margin: 0.5rem;
 }
 
 @media screen and (max-width: 660px) {
-    .aside-container{
-        display: none;
-        visibility: none;
-    }
-    .right-side{
+    .right-side-container{
         display: none;
         visibility: none; 
     }
+    .aside-container{
+        display: none;
+        visibility: none;
+    }   
 }
-
 .anchor-tag:hover{
         background-color: var(--text-highlight-color);
         border-radius: .5rem;
-}
-
-.right-side{
-    display: flex;
-    flex-direction: column;
-}
-.right-side> a{
-    margin: 0.5rem;
 }

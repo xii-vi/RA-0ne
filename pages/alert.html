@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RA">
+    <meta name="description" content="Alerts of different types available to use in your project">
+    <title>RA-One | Alert</title>
+    <link rel="stylesheet" href="/stylesheet/main.css">
+</head>
+
+<body>
+    <div>
+        <nav>
+            <div class="logo">
+                <img>
+                <span>RA-One</span>
+            </div>
+        </nav>
+        <div class="grid-20-60-20-layout">
+            <aside class="aside-container p-4">
+                <div>
+                    <p>Getting Started</p>
+                    <a class="p-4 flex anchor-tag" href="/pages/how-to-install.html">Usage</a>
+                    <p>Components</p>
+                    <a class="p-4 flex anchor-tag" href="/pages/alert.html">Alert</a>
+                    <a class="p-4 flex anchor-tag" href="/pages/avatar.html">Avatar</a>
+                    <a class="p-4 flex anchor-tag" href="/pages/badge.html">Badge</a>
+                    <a class="p-4 flex anchor-tag" href="/pages/button.html">Button</a>
+                    <a class="p-4 flex anchor-tag" href="#">Card</a>
+                    <a class="p-4 flex anchor-tag" href="#">Image</a>
+                    <a class="p-4 flex anchor-tag" href="#">Input</a>
+                </div>
+            </aside>
+            <div class="content">
+                <h2>Alert</h2>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2814%2C107%2C168%2C1%29&t=material&wt=sharp&l=css&width=&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fra-one.netlify.app%252Fstylesheet%252Falert.css%2522%29%253B%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520%250A%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fra-one.netlify.app%252Fstylesheet%252Falert.css%2522%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h4>Standard Alerts</h4>
+                <div>
+                    <div class="alert alert-success">A simple success alert.</div>
+                    <div class="alert alert-danger">A simple danger alert.</div>
+                    <div class="alert alert-warning">A simple warning alert.</div>
+                    <div class="alert alert-info">A simple info alert.</div>
+                </div>
+                <p> The alert component has four variants
+                    <span class="text-highlight p-1">alert-success</span>,
+                    <span class="text-highlight p-1">alert-danger</span>,
+                    <span class="text-highlight p-1">alert-warning</span> and
+                    <span class="text-highlight p-1">alert-info</span>
+                </p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2814%2C107%2C168%2C1%29&t=material&wt=sharp&l=htmlmixed&width=&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EA%2520simple%2520success%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520simple%2520danger%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520warning%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EA%2520simple%2520info%2520alert.%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h4>Alerts with icons</h4>
+                <div>
+                    <div class="alert alert-success"><i class="fas fa-check-circle mr-2"></i>A simple success alert.
+                    </div>
+                    <div class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-2"></i>A simple danger
+                        alert.</div>
+                    <div class="alert alert-warning"> <i class="fas fa-exclamation-triangle mr-2"></i>A simple warning
+                        alert.</div>
+                    <div class="alert alert-info"><i class="fas fa-info-circle mr-2"></i>A simple info alert.</div>
+                </div>
+                <p> The alert component has four variants
+                    <span class="text-highlight p-1">alert-success-icon</span>,
+                    <span class="text-highlight p-1">alert-danger-icon</span>,
+                    <span class="text-highlight p-1">alert-warning-icon</span> and
+                    <span class="text-highlight p-1">alert-info-icon</span>
+                </p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2814%2C107%2C168%2C1%29&t=material&wt=sharp&l=htmlmixed&width=577.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520mr-2%2522%253E%253C%252Fi%253EA%2520simple%2520success%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253EA%2520simple%2520danger%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520mr-2%2522%253E%253C%252Fi%253EA%2520simple%2520warning%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2520mr-2%2522%253E%253C%252Fi%253EA%2520simple%2520info%2520alert.%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <footer class="mt-4">
+                    <a href="/pages/how-to-install.html">&lt Usage</a>
+                    <a href="/pages/avatar.html">Avatar &gt</a>
+                </footer>
+            </div>
+            <div class="right-side-container">
+                <h4>On this Page</h4>
+                <a href="#">Alert</a>
+                <a href="#">Standard Alerts</a>
+                <a href="#">Alerts with icon</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
