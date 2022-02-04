@@ -29,4 +29,6 @@
 
   .text-highlight{
     background-color: var(--text-highlight-color);
+    line-height: 1.8rem;
+    border-radius: 0.2rem;
   }
