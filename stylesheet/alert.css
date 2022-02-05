@@ -42,8 +42,8 @@
     color: var(--dnd-color);
 }
 .alert-warning >i{
-    color: var(--warning-icon);
+    color: var(--warning-icon-color);
 }
 .alert-info >i{
-  color: var(--info-icon);
+  color: var(--info-icon-color);
 }

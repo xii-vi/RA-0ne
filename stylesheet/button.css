@@ -51,7 +51,7 @@
 }
 
 .btn-warning,.link-warning {
-  background-color: var(--warning-icon);
+  background-color: var(--warning-icon-color);
 }
 
 .btn-primary:hover {
@@ -80,8 +80,8 @@
 
 .btn-warning:hover {
   background-color: transparent;
-  border: 1px solid var(--warning-icon);
-  color: var(--warning-icon);
+  border: 1px solid var(--warning-icon-color);
+  color: var(--warning-icon-color);
 }
 
 /* Outline buttons classes */
@@ -102,8 +102,8 @@
   color: var(--dnd-color);
 }
 .btn-outline-warning {
-  border: 1px solid var(--warning-icon);
-  color: var(--warning-icon);
+  border: 1px solid var(--warning-icon-color);
+  color: var(--warning-icon-color);
 }
 .btn-outline-primary:hover {
   background-color: var(--primary-color);
@@ -126,6 +126,6 @@
   color: var(--text-color);
 }
 .btn-outline-warning:hover {
-  background-color: var(--warning-icon);
+  background-color: var(--warning-icon-color);
   color: var(--text-color);
   }

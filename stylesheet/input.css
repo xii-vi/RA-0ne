@@ -1,0 +1,24 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    border: 2px solid;
+    width: 19rem;
+    outline: none;
+}
+.text-area{
+    resize: none;
+}
+
+.input-error{
+border: 2px solid var(--dnd-color);
+color: var(--dnd-color);
+}
+.input-success{
+border: 2px solid var(--online-color);
+color: var(--online-color);
+}
+.input-warning{
+border: 2px solid var(--warning-icon-color);
+color: var(--warning-icon-color);
+}
