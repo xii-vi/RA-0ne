@@ -4,11 +4,20 @@
   }
   
   .img-round {
+    max-inline-size: 100%;
     border-radius: 50%;
+    block-size: auto;
     object-fit: cover;
+    width: 12rem;
+    height: 12rem;
+    aspect-ratio: 1/1;
   }
   
   .img-square {
-    height: 100%;
+    max-inline-size: 100%;
+    height: 12rem;
+    width: 12rem;
     object-fit: cover;
+    block-size: auto;
+    aspect-ratio: 1/1;
   }
