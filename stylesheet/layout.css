@@ -6,10 +6,16 @@
   display: grid;
   grid-template-columns: 60% 40%;
 }
-  .flex{
-    display: flex;
+.flex{
+  display: flex;
 }
-
+.flex-direction-col{
+  flex-direction: column;
+}
+.center-flex{
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 660px){
 .grid-20-60-20-layout {
   display: grid;

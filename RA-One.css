@@ -10,7 +10,6 @@ body{
 
 
 nav{
-    display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
 }
@@ -28,22 +27,12 @@ nav{
     position: sticky;
   }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.right-side-container{
-    display: flex;
-    flex-direction: column;
-}
-.right-side-container> a{
+.right-nav-container> a{
     margin: 0.5rem;
 }
 
 @media screen and (max-width: 660px) {
-    .right-side-container{
+    .right-nav-container{
         display: none;
         visibility: none; 
     }
