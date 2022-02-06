@@ -1,9 +1,6 @@
 :root{
     ---background-color: linear-gradient(to top,#0e6aa86c, #e8f1f27e);
 }
-*{
-    box-sizing: border-box;
-}
 body{
     background-image: var(---background-color);
 }
