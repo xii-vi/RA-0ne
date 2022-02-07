@@ -1,0 +1,30 @@
+.spaced-list{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.stacked-list{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: 0.5px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0;
+    list-style: none;
+    max-width: 100%;
+    text-align: center;
+    background-color: var(--white-color);
+}
+
+.check-list{
+    max-width: fit-content;
+    font-size: 1.25rem;
+}
