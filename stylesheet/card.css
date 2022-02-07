@@ -1,7 +1,6 @@
 .card-wrapper {
-    display: flex;
     max-width: 20rem;
-    background-color: var(--white);
+    background-color: var(--white-color);
     position: relative;
 }
 
@@ -56,12 +55,12 @@
 
 .text-card-content {
     font-size: 0.8rem;
-    color: var(--black);
+    color: var(--black-color);
     opacity: 0.6;
 }
 
 .horizontal-card-text-content {
-    background-color: var(--white);
+    background-color: var(--white-color);
 }
 .shoe-size-select {
     max-width: fit-content;
