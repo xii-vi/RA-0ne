@@ -1,0 +1,74 @@
+.card-wrapper {
+    max-width: 20rem;
+    background-color: var(--white-color);
+    position: relative;
+}
+
+
+.card-img {
+    position: relative;
+}
+
+.card-img>img {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 1/1;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 1px var(--primary-color);
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.p-3>p {
+    margin: 3px 0px;
+}
+
+.dismiss-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.text-overlay {
+    background: var(--dnd-color);
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.text-card-content {
+    font-size: 0.8rem;
+    color: var(--black-color);
+    opacity: 0.6;
+}
+
+.horizontal-card-text-content {
+    background-color: var(--white-color);
+}
+.shoe-size-select {
+    max-width: fit-content;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.shadow-card{
+    box-shadow: 1px 1px 2px 1px var(--primary-color);
+    border-radius: 0 0 8px 8px;
+}

@@ -1,7 +1,7 @@
 .badge{
     position: absolute;
     background-color: var(--dnd-color);
-    color: var(--white);
+    color: var(--white-color);
     border-radius: 50%;
     bottom: 0;
     right: 0;
