@@ -1,0 +1,15 @@
+.navbar{
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 0 0 10px 10px;
+}
+.nav-pills-left {
+    margin-left: auto;
+}
+.nav-pills-left>i{
+    padding: 0.5rem;
+}
+.nav-pills-left>i:hover{
+    cursor: pointer;
+}
