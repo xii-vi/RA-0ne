@@ -41,49 +41,18 @@
 .btn-secondary,.link-secondary,.btn-secondary-icon {
   background-color: var(--secondary-color);
 }
-
 .btn-success,.link-success,.btn-success-icon {
   background-color: var(--online-color);
 }
-
 .btn-danger,.link-danger,.btn-danger-icon {
   background-color: var(--dnd-color);
 }
-
 .btn-warning,.link-warning {
   background-color: var(--warning-icon-color);
 }
-
-.btn-primary:hover {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+.btn:hover{
+  opacity: 0.85;
 }
-
-.btn-secondary:hover {
-  background-color: transparent;
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
-}
-
-.btn-success:hover {
-  background-color: transparent;
-  border: 1px solid var(--online-color);
-  color: var(--online-color);
-}
-
-.btn-danger:hover {
-  background-color: transparent;
-  border: 1px solid var(--dnd-color);
-  color: var(--dnd-color);
-}
-
-.btn-warning:hover {
-  background-color: transparent;
-  border: 1px solid var(--warning-icon-color);
-  color: var(--warning-icon-color);
-}
-
 /* Outline buttons classes */
 .btn-outline-primary {
   border: 1px solid var(--primary-color);
@@ -105,27 +74,3 @@
   border: 1px solid var(--warning-icon-color);
   color: var(--warning-icon-color);
 }
-.btn-outline-primary:hover {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-}
-.btn-outline-secondary:hover {
-  background-color: var(--secondary-color);
-  color: var(--text-color);
-}
-.btn-outline-primary:hover {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-}
-.btn-outline-success:hover {
-  background-color: var(--online-color);
-  color: var(--text-color);
-}
-.btn-outline-danger:hover {
-  background-color: var(--dnd-color);
-  color: var(--text-color);
-}
-.btn-outline-warning:hover {
-  background-color: var(--warning-icon-color);
-  color: var(--text-color);
-  }

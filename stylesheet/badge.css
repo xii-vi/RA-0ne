@@ -1,4 +1,4 @@
-.badge{
+.badge {
     position: absolute;
     background-color: var(--dnd-color);
     color: var(--white-color);
@@ -16,15 +16,14 @@
     align-items: center;
 }
 
-.icons{
-    top:0;
-    width: 30%;
-    height: 30%;
-    font-size: 75%;  
+.icons {
+    top: 0;
+    width: 10%;
+    height: 10%;
+    font-size: 60%;
 }
 
-.icons-wrapper{ 
-        position: relative;
-        margin: 0px;
-        padding: 10px;
+.icons-wrapper {
+    position: relative;
+    padding: 15px;
 }

@@ -5,40 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RA-One | Installation</title>
+    <meta name="author" content="Rohit-Abhishek">
+    <meta name="description"
+        content="RE is a lightweight and modular front-end framework for developing fast and powerful web interfaces.">
+    <title>RE | Installation</title>
     <link rel="stylesheet" href="/stylesheet/main.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <div>
-        <nav class="flex">
-            <div class="logo">
-                <img>
-                <span class="brand-name">RA-One</span>
-            </div>
-        </nav>
-        <div class="grid-20-60-20-layout">
-        <div class="position-relative">
-            <aside class="aside-container p-4">
-                <div>
-                    <p>Getting Started</p>
-                    <a class="p-4 flex anchor-tag" href="#">Usage</a>
-                    <p>Components</p>
-                    <a class="p-4 flex anchor-tag" href="/pages/alert.html">Alert</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/avatar.html">Avatar</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/badge.html">Badge</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/button.html">Button</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/card.html">Card</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/image.html">Image</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/input.html">Input</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/list.html">List</a>
-                    <a class="p-4 flex anchor-tag" href="/pages/text-utilities.html">Text Utilities</a>
-                </div>
-            </aside>
+        <div class="create-navbar">
         </div>
-
-            <div>
-                <h2 id="usage">Usage</h2>
+        <div class="grid-20-60-20-layout">
+        <div class="position-sticky aside">
+        </div>
+            <div class="mt-5">
+                <p class="h2" id="usage">Usage</p>
                 <p>To start using the components in your project import the stylesheet in your css or html file.</p>
                 <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%2814%2C107%2C168%2C1%29&t=material&wt=sharp&l=css&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fra-one.netlify.app%252Fstylesheet%252Fmain.css%2522%29%253B%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520%250A%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fra-one.netlify.app%252Fstylesheet%252Fmain.css%2522%253E"
@@ -51,13 +34,13 @@
                     <a href="#">Alert &gt</a>
                 </footer>
             </div>
-            <div class="right-nav-container flex flex-direction-col">
-                <h4>On this Page</h4>
+            <div class="right-nav-container position-sticky pl-5 flex flex-direction-col">
+                <p class="h4">On this Page</p>
                 <a href="#usage">Usage</a>
             </div>
         </div>
     </div>
-
+<script src="/javascript/aside.js"></script>
+<script src="/javascript/navbar.js"></script>
 </body>
-
 </html>

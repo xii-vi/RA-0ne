@@ -1,7 +1,5 @@
   * {
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
   }
   footer{
     display: flex;
@@ -11,18 +9,14 @@
     color: var(--black-color);
     font-weight: 500;
   }
-
   iframe{
-    display: flex;
-    flex-wrap: wrap; 
-    border: 0; 
+    border: none; 
     transform: scale(1); 
-    overflow:auto;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-
   .text-highlight{
     background-color: var(--text-highlight-color);
     line-height: 1.8rem;
