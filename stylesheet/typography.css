@@ -23,8 +23,10 @@
   }
   
   p {
-    font-size: 1rem;
-    line-height: 1.125rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0.8rem 0rem;
   }
   
   .text-lg{
@@ -72,7 +74,9 @@
   .text-no-underline {
     text-decoration: none;
   }
-  
+  .text-left{
+    text-align: left;
+  }
   a {
     text-decoration: none;
     color: inherit;

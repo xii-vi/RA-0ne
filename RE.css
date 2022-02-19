@@ -1,0 +1,60 @@
+body {
+    background-color: #dfdfdf;
+    font-family: "Montserrat", sans-serif;
+}
+
+.create-navbar {
+    position: sticky;
+    top: 0.5rem;
+    z-index: 1;
+}
+
+nav {
+    align-items: center;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.right-nav-container>a {
+    margin: 0.5rem;
+}
+
+.anchor-tag:hover {
+    background-color: var(--text-highlight-color);
+    border-radius: .5rem;
+}
+
+.anchor-tag:active {
+    background-color: var(--secondary-color);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 5rem;
+    height: fit-content;
+    bottom: 0;
+}
+
+.introduction {
+    max-width: 25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.aside-heading {
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.fa-github {
+    background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+}
