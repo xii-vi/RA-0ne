@@ -1,5 +1,4 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
-
 /*  */
 @import "/stylesheet/button.css";
 @import "/stylesheet/images.css";
@@ -18,4 +17,6 @@
 @import "/stylesheet/navigation.css";
 @import "/stylesheet/modal.css";
 @import "/stylesheet/grid.css";
+@import "/stylesheet/toast.css";
+@import "/stylesheet/rating.css";
 @import "/RE.css";
