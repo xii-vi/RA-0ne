@@ -58,3 +58,20 @@ nav {
     -webkit-text-fill-color: transparent;
     background-clip: none;
 }
+.aside {
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.aside::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+::-webkit-scrollbar-thumb {
+    background:var(--black-color);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
+}
