@@ -1,0 +1,21 @@
+.modal-overlay{
+    position: fixed;
+    top: 20rem;
+    left: 50rem;
+    z-index: 2;
+}
+.modal-wrapper{
+    width: 20rem;
+    position: relative;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    display: none;
+}
+.close-btn{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

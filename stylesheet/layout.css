@@ -1,6 +1,7 @@
 .grid-20-60-20-layout {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 15% 60% 20%;
+  column-gap: 2rem;
 }
 
 .grid-60-40-layout {
