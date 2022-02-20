@@ -1,0 +1,25 @@
+.snackbar {
+    visibility: hidden;
+    top: 15rem;
+    right: 1rem;
+    position: fixed;
+    background: var(--white-color);
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.toast-msg-interaction-btn {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 0rem 2rem;
+
+}
+
+.add-new-label-text {
+    line-height: 2rem;
+    padding-left: 0;
+}
+
+#close-btn:hover {
+    font-size: 1.5rem;
+}
