@@ -1,0 +1,10 @@
+.rating>span{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.rating>span:hover{
+    background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+}
