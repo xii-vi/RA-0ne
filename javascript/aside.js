@@ -15,6 +15,7 @@ const asideComponent = () => document.querySelector(".aside").innerHTML =`<aside
     <a class="p-4 flex anchor-tag" href="/pages/modal.html">Modal</a>
     <a class="p-4 flex anchor-tag" href="/pages/navigation.html">Navigation</a>
     <a class="p-4 flex anchor-tag" href="/pages/text-utilities.html">Text Utilities</a>
+    <a class="p-4 flex anchor-tag" href="/pages/toast.html">Toast</a>
 </div>
 </aside>`;
 asideComponent();
