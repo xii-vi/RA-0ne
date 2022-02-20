@@ -1,8 +1,19 @@
-.rating>span{
+.rating-wrapper {
+    direction: rtl;
+    text-align: end;
+}
+
+.rating-wrapper>label {
     font-size: 2rem;
     cursor: pointer;
 }
-.rating>span:hover{
+
+.rating-wrapper input[type="radio"] {
+    visibility: hidden;
+}
+
+.rating-wrapper>label:hover,
+input:checked~label {
     background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
