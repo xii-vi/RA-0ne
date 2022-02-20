@@ -8,6 +8,7 @@ const asideComponent = () => document.querySelector(".aside").innerHTML =`<aside
     <a class="p-4 flex anchor-tag" href="/pages/badge.html">Badge</a>
     <a class="p-4 flex anchor-tag" href="/pages/button.html">Button</a>
     <a class="p-4 flex anchor-tag" href="/pages/card.html">Card</a>
+    <a class="p-4 flex anchor-tag" href="/pages/grid.html">Grid</a>
     <a class="p-4 flex anchor-tag" href="/pages/image.html">Image</a>
     <a class="p-4 flex anchor-tag" href="/pages/input.html">Input</a>
     <a class="p-4 flex anchor-tag" href="/pages/list.html">List</a>
