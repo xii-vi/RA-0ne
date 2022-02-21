@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rohit-Abhishek">
+    <meta name="description" content="Slider is available to use in your project">
+    <title>RE | Slider</title>
+    <link rel="stylesheet" href="/stylesheet/main.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div>
+        <div class="create-navbar">
+        </div>
+        <div class="grid-20-60-20-layout">
+            <div class="position-sticky aside">
+            </div>
+            <div class="mt-5">
+                <p class="h2" id="slider">Slider</p>
+                <p>Sliders are used to display the value of a particular product.
+                </p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=150%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fre-ui.netlify.app%252Fstylesheet%252Fslider.css%2522%29%253B%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520%250A%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fre-ui.netlify.app%252Fstylesheet%252Fslider.css%2522%253E"
+                    style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p class="h4" id="simple-slider">Simple Slider</p>
+                <p>Simple slider is there with input box where the current value of slider is stored. Check the code
+                    snippet to use.</p>
+                <div class="slider-wrapper">
+                    <input class="simple-slider" id="slider-value" type="range" min="5000" max="50000" value="10000" />
+                </div>
+                <div class="py-2">
+                    <span class="btn btn-primary mr-2">5000</span>
+                    <span id="value" class="btn btn-primary">10000</span>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=htmlmixed&width=&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=150%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-wrapper%2522%253E%2520%2520%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522simple-slider%2522%2520id%253D%2522slider-value%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522range%2522%2520min%253D%25225000%2522%2520max%253D%252250000%2522%2520value%253D%252210000%2522%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522btn%2520btn-primary%2522%253E5000%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522value%2522%2520class%253D%2522btn%2520btn-primary%2522%253E10000%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E"
+                    style="width: 100%; height: 250px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>Here is the javascript that will be necessary for simple slider</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=sharp&l=javascript&width=&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=150%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fre-ui.netlify.app%252Fjavascript%252Fslider.js%2522%2520type%253D%2522text%252Fjavascript%2522%253E%253C%252Fscript%253E%29"
+                    style="width: 100%; height: 78px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <footer class="mt-4">
+                    <a href="/pages/rating.html">&lt Rating</a>
+                    <a href="/pages/text-utilities.html">Text-Utilities &gt</a>
+                </footer>
+            </div>
+            <div class="right-nav-container position-sticky pl-5 flex flex-direction-col">
+                <p class="h4">On this Page</p>
+                <a href="#slider">Rating</a>
+                <a href="#simple-slider">Simple Slider</a>
+            </div>
+        </div>
+    </div>
+    <script src="/javascript/aside.js"></script>
+    <script src="/javascript/navbar.js"></script>
+    <script src="/javascript/slider.js"></script>
+</body>
+
+</html>
