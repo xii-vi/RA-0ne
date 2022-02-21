@@ -1,7 +1,6 @@
 .modal-overlay{
     position: fixed;
     top: 20rem;
-    left: 50rem;
     z-index: 2;
 }
 .modal-wrapper{

@@ -20,6 +20,6 @@
     padding-left: 0;
 }
 
-#close-btn:hover {
+#close-btn,#close-btn1,#close-btn2:hover {
     font-size: 1.5rem;
 }
