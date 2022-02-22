@@ -1,0 +1,55 @@
+.dark-theme {
+    color: var(--background-color);
+    background-color: var(--black-color);
+}
+
+.dark-theme .create-navbar {
+    background-color: var(--black-color);
+}
+
+.dark-theme footer {
+    color: var(--white-color);
+}
+
+.dark-theme small,
+.bold-text,
+.text-card-component,
+.modal-heading,
+.modal-body,
+.snackbar,
+.stacked-list {
+    color: var(--black-color);
+}
+
+.dark-theme .text-highlight {
+    background-color: var(--primary-color);
+}
+
+.dark-theme .mobile-sidebar {
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border: 1px solid var(--white-color);
+}
+
+.theme-btn {
+    position: fixed;
+    right: 1rem;
+    bottom: 3.5rem;
+    z-index: 4;
+    border: medium solid var(--white-color);
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.05rem var(--black-color);
+    height: 4rem;
+    transition: transform 0.2s;
+    width: 4rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-sun,
+.fa-moon {
+    background: -webkit-linear-gradient(left, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+}

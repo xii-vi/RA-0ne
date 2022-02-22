@@ -6,7 +6,7 @@ const navbarComponent = () => document.querySelector(".create-navbar").innerHTML
                 </a>
             </div>
             <div class="links">
-                <a href="https://github.com/xii-vi/RA-0ne"><i class="fab fa-github fa-2x"></i></a>  
+                <a href="https://github.com/xii-vi/RA-0ne"><i class="fab fa-github fa-2x"></i></a>           
                 <a id="open-menu" class="open-menu"><i class="fa fa-bars fa-2x"></i></a>
                 <a id="close-menu" class="close-menu"><i class="fa fa-times fa-2x" ></i></a>
                 <div class="mobile-sidebar" id="sm-sidebar">
@@ -38,22 +38,53 @@ const navbarComponent = () => document.querySelector(".create-navbar").innerHTML
 
 navbarComponent();
 
-document.querySelector(".open-menu").addEventListener("click",()=>{
+document.querySelector(".open-menu").addEventListener("click", () => {
     document.querySelector(".mobile-sidebar").classList.add("show");
     document.querySelector(".mobile-sidebar").classList.remove("hide");
     document.querySelector(".open-menu").classList.add("hide");
     document.querySelector(".open-menu").classList.remove("show");
     document.querySelector(".close-menu").classList.add("show");
     document.querySelector(".close-menu").classList.remove("hide");
+})
+
+document.querySelector(".close-menu").addEventListener("click", () => {
+    document.querySelector(".mobile-sidebar").classList.add("hide");
+    document.querySelector(".mobile-sidebar").classList.remove("show");
+    document.querySelector(".close-menu").classList.add("hide");
+    document.querySelector(".close-menu").classList.remove("show");
+    document.querySelector(".open-menu").classList.add("show");
+    document.querySelector(".open-menu").classList.remove("hide");
+})
+
+const btn = document.querySelector(".btn-toggle");
+const lightModeBtn = document.querySelector("#light-theme");
+const darkModeBtn = document.querySelector("#dark-theme");
+
+const darkThemeBtn = () => {
+    document.body.classList.add("dark-theme");
+    lightModeBtn.style.display = "block";
+    darkModeBtn.style.display = "none";
+    localStorage.setItem("theme", "dark");
+}
+const lightThemeBtn = () => {
+    document.body.classList.remove("dark-theme");
+    darkModeBtn.style.display = "block";
+    lightModeBtn.style.display = "none";
+    localStorage.setItem("theme", "light");
+}
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+    darkThemeBtn();
+} else {
+    lightThemeBtn();
+}
+
+btn.addEventListener("click", () =>
+    {
+        if (localStorage.getItem("theme") === "light") {
+        darkThemeBtn();
     }
-    )
-    
-document.querySelector(".close-menu").addEventListener("click",()=>{
-        document.querySelector(".mobile-sidebar").classList.add("hide");
-        document.querySelector(".mobile-sidebar").classList.remove("show");
-        document.querySelector(".close-menu").classList.add("hide");
-        document.querySelector(".close-menu").classList.remove("show");
-        document.querySelector(".open-menu").classList.add("show");
-        document.querySelector(".open-menu").classList.remove("hide");
+    else {
+        lightThemeBtn();
     }
-    )
+});
