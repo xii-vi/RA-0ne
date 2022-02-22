@@ -11,8 +11,7 @@
 ![Home-RE (1)](https://user-images.githubusercontent.com/86154835/154942447-9493a09c-3adf-4079-80b4-e8d42dbdd590.png)
 
 ### Quick Look of RE.
-![Animation](https://user-images.githubusercontent.com/86154835/154942409-fc760637-0cc8-40c6-9cc7-4698103b4daf.gif)
-
+![Animation](https://user-images.githubusercontent.com/86154835/155137658-26f3b5a1-11b8-4513-a42f-8049da1dff88.gif)
 
 ## Tech Stack
 
@@ -151,6 +150,7 @@ Visit [docs](https://re-ui.netlify.app/pages/how-to-install.html) to explore mor
 ## Features
 
 - Easy and RE-usuable
+- Support Dark Mode
 - Minimalistic
 - Live previews
 - Fullscreen mode
