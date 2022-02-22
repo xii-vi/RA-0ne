@@ -26,7 +26,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/xii-vi/RA-One.git
+  git clone https://github.com/xii-vi/RA-0ne
 ```
 
 Go to the project directory
