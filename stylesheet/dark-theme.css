@@ -17,7 +17,7 @@
 .modal-heading,
 .modal-body,
 .snackbar,
-.stacked-list {
+.stacked-list, .alert {
     color: var(--black-color);
 }
 
