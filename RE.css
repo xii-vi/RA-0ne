@@ -1,12 +1,6 @@
 body {
-    background-color: #dfdfdf;
+    background-color: var(--background-color);
     font-family: "Montserrat", sans-serif;
-}
-
-.create-navbar {
-    position: sticky;
-    top: 0.5rem;
-    z-index: 1;
 }
 
 nav {
@@ -52,7 +46,7 @@ nav {
     font-weight: bold;
 }
 
-.fa-github {
+.fa-github,.open-menu,.close-menu {
     background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

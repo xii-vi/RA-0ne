@@ -24,3 +24,7 @@ document.getElementById("stacked").addEventListener("click", () => {
 });
 
 document.getElementById("close-btn").addEventListener("click", () => document.getElementById("base").style.visibility = "hidden")
+
+document.getElementById("close-btn1").addEventListener("click", () => document.getElementById("lead").style.visibility = "hidden")
+
+document.getElementById("close-btn2").addEventListener("click", () => document.getElementById("stack").style.visibility = "hidden")
