@@ -32,7 +32,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd RA-One
+  cd RA-0ne
 ```
 
 Open project
