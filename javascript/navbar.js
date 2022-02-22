@@ -1,5 +1,5 @@
 const navbarComponent = () => document.querySelector(".create-navbar").innerHTML = `
-<nav class="flex px-4">
+        <nav class="flex px-4">
             <div>
                 <a href="/index.html">
                     <span class="brand-name h1">RE</span>
@@ -12,26 +12,26 @@ const navbarComponent = () => document.querySelector(".create-navbar").innerHTML
                 <div class="mobile-sidebar" id="sm-sidebar">
                 <aside class="flex px-5">
                 <div>
-    <p class="aside-heading">Getting Started</p>
-    <a class="p-4 flex anchor-tag" href="/pages/how-to-install.html">Usage</a>
-    <p class="aside-heading">Components</p>
-    <a class="p-4 flex anchor-tag" href="/pages/alert.html">Alert</a>
-    <a class="p-4 flex anchor-tag" href="/pages/avatar.html">Avatar</a>
-    <a class="p-4 flex anchor-tag" href="/pages/badge.html">Badge</a>
-    <a class="p-4 flex anchor-tag" href="/pages/button.html">Button</a>
-    <a class="p-4 flex anchor-tag" href="/pages/card.html">Card</a>
-    <a class="p-4 flex anchor-tag" href="/pages/grid.html">Grid</a>
-    <a class="p-4 flex anchor-tag" href="/pages/image.html">Image</a>
-    <a class="p-4 flex anchor-tag" href="/pages/input.html">Input</a>
-    <a class="p-4 flex anchor-tag" href="/pages/list.html">List</a>
-    <a class="p-4 flex anchor-tag" href="/pages/modal.html">Modal</a>
-    <a class="p-4 flex anchor-tag" href="/pages/navigation.html">Navigation</a>
-    <a class="p-4 flex anchor-tag" href="/pages/rating.html">Rating</a>
-    <a class="p-4 flex anchor-tag" href="/pages/slider.html">Slider</a>
-    <a class="p-4 flex anchor-tag" href="/pages/text-utilities.html">Text Utilities</a>
-    <a class="p-4 flex anchor-tag" href="/pages/toast.html">Toast</a>
-</div>
-</aside>
+                     <p class="aside-heading">Getting Started</p>
+                     <a class="p-4 flex anchor-tag" href="/pages/how-to-install.html">Usage</a>
+                     <p class="aside-heading">Components</p>
+                     <a class="p-4 flex anchor-tag" href="/pages/alert.html">Alert</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/avatar.html">Avatar</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/badge.html">Badge</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/button.html">Button</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/card.html">Card</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/grid.html">Grid</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/image.html">Image</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/input.html">Input</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/list.html">List</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/modal.html">Modal</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/navigation.html">Navigation</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/rating.html">Rating</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/slider.html">Slider</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/text-utilities.html">Text Utilities</a>
+                     <a class="p-4 flex anchor-tag" href="/pages/toast.html">Toast</a>
+                </div>
+                </aside>
                 </div>
             </div>
         </nav>`;
